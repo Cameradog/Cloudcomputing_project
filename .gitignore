@@ -1,0 +1,4 @@
+vendor
+/bootstrap/compiled.php
+/public/storage
+.env
