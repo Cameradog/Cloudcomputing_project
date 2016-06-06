@@ -1,5 +1,5 @@
-vendor
-/bootstrap/compiled.php
-/public/storage
-.env
+cloudcomputing/vendor
+cloudcomputing/bootstrap/compiled.php
+cloudcomputing/public/storage
+cloudcomputing/.env
 cloudcomputing/.env.example
