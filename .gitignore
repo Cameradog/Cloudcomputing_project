@@ -2,4 +2,4 @@ vendor
 /bootstrap/compiled.php
 /public/storage
 .env
-.env.example
+cloudcomputing/.env.example
