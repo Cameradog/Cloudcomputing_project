@@ -12,7 +12,6 @@
     {!! HTML::script('js/Chart.bundle.js') !!}
 
     {!! HTML::style('css/custom.css') !!}
-    {!! HTML::script('js/custom.js') !!}
     {!! HTML::script('js/toeicWords.js') !!}
   	<title>TOEIC Words</title>
   </head>
