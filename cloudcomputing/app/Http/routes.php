@@ -11,9 +11,10 @@
 |
 */
 // Route for all category
-Route::get('/', function () {
-    return view('content.index');
-});
+// Route::get('/', function () {
+//     return view('content.index');
+// });
+Route::get('/', 'ToeicWords@index');
 Route::get('aa', function () {
     return view('content.aa');
 });
