@@ -1,6 +1,6 @@
 @extends('layout')
 @section('navbar')
-<nav class="navbar navbar-default nav-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -10,7 +10,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand">
-        <img src="img/favicon.png" style="width: 24px; height: 24px; display: inline;"> TOEIC Words
+        <img src="img/favicon.png" style="width: 24px; height: 24px; display: inline;"> TOEIC Analyzer
       </span>
     </div>
 

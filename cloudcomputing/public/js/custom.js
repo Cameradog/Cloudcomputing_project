@@ -108,7 +108,7 @@ window.onload = function() {
     var ge = chartData.attr('data-ge');
     var sc = chartData.attr('data-sc');
     var ss = chartData.attr('data-ss');
-    $('#wordChartLabel'+id).html('Chart: '+'"'+word+'"');
+    $('#wordChartLabel'+id).html('Word: '+'"'+word+'"');
     drawChart(id, all, aa, ar, as, be, ge, sc, ss);
   }
 };

@@ -1,6 +1,6 @@
 @extends('navbar')
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid move-down">
   <!-- Top ten chart -->
   <h1><span class="fa fa-star"></span> Top 10 Vocabularies</h1>
   @foreach($topTenData as $key => $value)
@@ -18,7 +18,7 @@
         <tr>
           <th>#</th>
           <th>Vocabulary</th>
-          <th>Total count</th>
+          <th class="danger">Total count</th>
           <th>Anthropology & Archaeology</th>
           <th>Art</th>
           <th></th>
@@ -35,7 +35,7 @@
           <tr>
             <td>{{ ($toeicData->currentPage()-1)*($toeicData->perPage())+($key+1) }}</td>
             <td>{{ $value->words }}</td>
-            <td>{{ $value->all }}</td>
+            <td class="warning">{{ $value->all }}</td>
             <td>{{ $value->aa }}</td>
             <td>{{ $value->ar }}</td>
             <td></td>
