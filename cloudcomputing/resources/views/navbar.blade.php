@@ -9,16 +9,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <span class="navbar-brand">
-        <img src="img/favicon.png" style="width: 24px; height: 24px; display: inline;"> TOEIC Analyzer
-      </span>
+      <a class="navbar-brand" href="/">
+        <img src="img/favicon.png" style="width: 24px; height: 24px; display: inline;"> <span>TOEFL Analyzer</span>
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li id="nav-all" class="">
-          <a href="/">All</a>
+          <a href="all">All</a>
         </li>
         <li id="nav-aa" class="">
           <a href="aa">Anthropology & Archaeology</a>

@@ -19,6 +19,10 @@ use Session;
 
 class ToeicWords extends Controller
 {
+    public function welcome() {
+      return view('welcome');
+    }
+
     public function index() {
       $toeicData = ToeicData::orderBy('all','desc')->paginate(10);
       $topTenData = ToeicData::orderBy('all','desc')->take(10)->get();

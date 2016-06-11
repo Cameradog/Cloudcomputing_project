@@ -54,3 +54,51 @@
     margin-top: 5%;
   }
 }
+
+.welcome {
+  margin-top: 10%;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+span,h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+table,ul {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 120%;
+}
+
+.title-word {
+  margin-top: 5%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: rgba(80, 80, 80, 0.6);
+  background: -webkit-linear-gradient(rgba(200, 200, 200, 0.8), rgba(0, 0, 0, 0.5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-inst {
+  margin-top: 8%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: rgba(80, 80, 80, 0.6);
+}
+
+.title-btn {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: rgba(80, 80, 80, 0.8);
+  box-shadow: 1px 1px 5px rgba(150, 150, 150, 0.6);
+}
+
+@media (max-width: 1123px) {
+  .title-btn {
+    margin-top: 3%;
+  }
+}
