@@ -36,6 +36,21 @@
   }
 }
 
-.move-down {
-  margin-top: 5%;
+@media (max-width: 600px) {
+  .move-down {
+    margin-top: 15%;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .move-down {
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 800px) {
+  .move-down {
+    margin-top: 5%;
+  }
 }
