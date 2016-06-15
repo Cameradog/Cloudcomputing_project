@@ -13,7 +13,7 @@ class ToeicDataSeeder extends Seeder
     public function run()
     {
       $dbInsert = DB::table('ToeicData');
-      $content = File::get(storage_path('data/FP_result_noSW_v4.txt'));
+      $content = File::get(storage_path('data/sorted_single.txt'));
       $line = preg_split("/\n/",$content);
       foreach ($line as $key => $value) {
         $words = preg_split("/\t/",$value);

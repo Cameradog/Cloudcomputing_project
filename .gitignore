@@ -3,3 +3,4 @@ cloudcomputing/bootstrap/compiled.php
 cloudcomputing/public/storage
 cloudcomputing/.env
 cloudcomputing/.env.example
+.DS_Store
